@@ -62,6 +62,9 @@ cd /opt/logstash
 wget https://download.elasticsearch.org/logstash/logstash/logstash-1.2.2-flatjar.jar
 mv logstash-*.jar logstash.jar
 
+wget https://download.elasticsearch.org/logstash/logstash/logstash-1.4.0.tar.gz
+tar xvfz *.tar.gz
+
 # Create Logstash Init Script
 (
 cat <<'EOF'
